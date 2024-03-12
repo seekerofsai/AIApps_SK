@@ -14,9 +14,9 @@
 Adding secrets
 
 ```powershell
-dotnet user-secrets set "AzureOpenAI:ApiKey" "<>" --id "aitravelagent" </item>
-dotnet user-secrets set "AzureOpenAI:DeploymentChatName" "<>"--id "aitravelagent" </item>
-dotnet user-secrets set "AzureOpenAI:Endpoint" "<>" --id "aitravelagent" </item>
+dotnet user-secrets set "AzureOpenAI:ApiKey" "<>" --id "aiapps" </item>
+dotnet user-secrets set "AzureOpenAI:DeploymentChatName" "<>"--id "aiapps" </item>
+dotnet user-secrets set "AzureOpenAI:Endpoint" "<>" --id "aiapps" </item>
 
 ```powershell
 dotnet build
